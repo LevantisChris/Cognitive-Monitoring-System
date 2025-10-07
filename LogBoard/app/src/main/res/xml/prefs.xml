@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:key="english_ime_settings">
+
+    <PreferenceScreen
+        android:fragment="com.levantis.logboard.latin.settings.UserProfileSettingsFragment"
+        android:key="user_profile"
+        android:title="Manage your Profile"
+        />
+
+    <PreferenceScreen
+        android:fragment="com.levantis.logboard.latin.settings.LanguagesSettingsFragment"
+        android:title="@string/select_language"
+        android:key="screen_language" />
+
+    <PreferenceScreen
+        android:fragment="com.levantis.logboard.latin.settings.PreferencesSettingsFragment"
+        android:title="@string/settings_screen_preferences"
+        android:key="screen_preferences" />
+
+    <PreferenceScreen
+        android:fragment="com.levantis.logboard.latin.settings.KeyPressSettingsFragment"
+        android:title="@string/settings_screen_key_press"
+        android:key="screen_key_press" />
+
+    <PreferenceScreen
+        android:fragment="com.levantis.logboard.latin.settings.AppearanceSettingsFragment"
+        android:title="@string/settings_screen_appearance"
+        android:key="screen_appearance" />
+
+    <Preference
+        android:title="@string/privacy_policy"
+        android:key="privacy_policy" />
+
+    <Preference
+        android:title="@string/license"
+        android:key="license" />
+
+</PreferenceScreen>

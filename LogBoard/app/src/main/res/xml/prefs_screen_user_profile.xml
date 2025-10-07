@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="user_profile_icon"
+        android:layout="@layout/user_profile_icon"
+        android:selectable="false" />
+
+    <Preference
+        android:key="user_display_name"
+        android:title="Authenticated as"
+        android:selectable="false" />
+
+    <Preference
+        android:key="user_email"
+        android:title="Email logged in"
+        android:selectable="false" />
+
+    <Preference
+        android:key="logout_button"
+        android:title="Log Out"
+        android:summary="Click to log out"
+        />
+
+</PreferenceScreen>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="platformSettingsTheme" parent="@android:style/Theme.DeviceDefault"/>
+    <style name="platformAuthTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">#03424C</item>
+        <item name="android:statusBarColor">#03424C</item>
+        <item name="android:navigationBarColor">#03424C</item>
+    </style>
+</resources>
