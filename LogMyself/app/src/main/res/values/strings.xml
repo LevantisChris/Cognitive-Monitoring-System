@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LogMyself</string>
+    <string name="title_home">Home</string>
+    <string name="title_typing">Typing</string>
+    <string name="title_behavior">Behavior</string>
+    <string name="title_insights">Insights</string>
+    <string name="title_profile">Profile</string>
+</resources>
