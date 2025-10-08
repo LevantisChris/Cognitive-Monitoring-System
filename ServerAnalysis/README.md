@@ -49,7 +49,7 @@ ServerAnalysis is a FastAPI-based backend service designed to perform comprehens
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/ServerAnalysis.git
+git clone https://github.com/LevantisChris/Cognitive-Monitoring-System.git
 cd ServerAnalysis
 ```
 
