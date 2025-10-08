@@ -1,0 +1,66 @@
+# Environment files
+.env
+.env
+/.env
+.env.*
+!.env.example
+
+# Credentials
+/credentials_logmyself.json
+/credentials_logboard.json
+*.pem
+*.key
+
+# Database files
+*.db
+/analysis_db.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Firestore exports (contains user data)
+/firestore_export/
+
+# Celery runtime files
+celerybeat-schedule
+celerybeat.pid
+
+# All log files
+*.log
+firebase-debug.log
+firestore-debug.log
